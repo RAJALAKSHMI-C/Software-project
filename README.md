@@ -1,9 +1,9 @@
-# Software-project
-Chatbot for health care
-Functionalities of the project:
-    1. Aalyze user's query
-    2. Provide instant remedy
-    3. Booking appointment to doctor
-    4. Providing donor details for blood
-    5. Suggesting diet chart
+# Software-project<br>
+Chatbot for health care<br>
+Functionalities of the project:<br>
+    1. Analyze user's query<br>
+    2. Provide instant remedy<br>
+    3. Booking appointment to doctor<br>
+    4. Providing donor details for blood<br>
+    5. Suggesting diet chart<br>
   
