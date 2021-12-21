@@ -9,7 +9,7 @@ Functionalities of the project:<br>
     <br>
     Steps to run code:<br>
        1.Create a folder named templates and place the html file(index.html) there.<br>
-       2.Create a folder named static and inside static create another folder named style place style.css there
-       3.Run chatbot.ipynb first
-       4.After the execution of chatbot.ipynb, execute app.ipynb
+       2.Create a folder named static and inside static create another folder named style place style.css there <br>
+       3.Run chatbot.ipynb first <br>
+       4.After the execution of chatbot.ipynb, execute app.ipynb<br>
   
