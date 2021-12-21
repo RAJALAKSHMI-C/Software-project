@@ -6,4 +6,10 @@ Functionalities of the project:<br>
     3. Booking appointment to doctor<br>
     4. Providing donor details for blood<br>
     5. Suggesting diet chart<br>
+    <br>
+    Steps to run code:<br>
+       1.Create a folder named templates and place the html file(index.html) there.<br>
+       2.Create a folder named static and inside static create another folder named style place style.css there
+       3.Run chatbot.ipynb first
+       4.After the execution of chatbot.ipynb, execute app.ipynb
   
