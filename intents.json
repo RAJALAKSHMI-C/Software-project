@@ -1,0 +1,205 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+       
+           
+      {"tag":"blood donor",
+"patterns":["I need a blood donor","Urgent!blood donor is needed"],
+"responses":["Can you tell us which blood group do you need?"],
+"context":[""]
+},
+{"tag": "A+ve",
+"patterns": ["I need A+ve blood", "A positive blood is needed", "A positive", "A+ve"],
+"responses": ["Can you provide us the location" ],
+"context": [""]
+},
+{"tag": "B-ve",
+"patterns": ["I need B-ve blood", "B negative blood is needed", "B negative", "B-ve"],
+"responses": ["Can you provide us the location" ],
+"context": [""]
+},
+{"tag": "AB+ve",
+"patterns": ["I need AB+ve blood", " AB positive blood is needed", "AB positive", "AB+ve"],
+"responses": ["Can you provide us the location" ],
+"context": [""]
+},
+{"tag": "O-ve",
+"patterns": ["I need O-ve Olood", "O negative Blood is needed", "O negative", "O-ve"],
+"responses": ["Can you provide us the location" ],
+"context": [""]
+},
+
+{"tag": "Location-vellore",
+"patterns": [ "Vellore"],
+"responses": ["These are the donors who were in vellore,  Blood donor details: Rajalakshmi Address: No.10A Anna nagar Vellore phone number:9998887776, Siva Address : No 11B Rajaji nagar Vellore phone number:9998881112, Maha Address: N0 13/2 Near VIT, vellore phone number: 9993332221"],
+"context": [""]
+},
+{"tag": "Location-chennai",
+"patterns": [ "chennai"],
+"responses": ["These are the donors who were in chennai ,Blood donor details: Kumar Address: No.12/2 paari street otteri chennai phone number:9998887776,Arthi Address: No.23 C Rajaji nagar chennai phone number:9998881112,Deepi Address: No.12A Raju nagar chennai phone number: 9993332221"],
+"context": [""]
+},
+
+{"tag": "Location-coimbatore",
+"patterns": [ "coimbatore"],
+"responses": ["These are the donors who were in coimbatore ,Blood donor details: Usha Address:No 14E Anna nagar Coimbatore phone number:9998887776,Siva Address: No.45C Gandhi nagar Coimbatore phone number:9998881112,Maha Address:No.79/2 Seeta nagar coimbatore phone number: 9993332221","Blood donor details: Sakthi Address: No.10A near govt arts college ,otteri,coimbatore phone number:9998887776"],
+"context": [""]
+},
+ 
+   
+{"tag":"Instant remedy",
+"patterns":["what medicine shoud i take for head ache "," I have head ache ","head pain"],
+"responses":["Take paracetamol 500 mg"],
+"context":[""]
+},
+  {"tag": "Fever",
+         "patterns": [ "What is the treatment for fever?", "My tempertaure is high", "I am suffering from fever"],
+         "responses": ["Take paracetamol 500mg after meal", "Take dolo 650 do you want to book appointment to doctor" ],
+         "context": [""]
+        },
+   
+{"tag": "cold",
+"patterns": ["i have severe cold","cold"," running nose"],
+"responses": ["Take citrizen drink vitamin c rich drinks take vapour avoid cold food if you are not satisfied with the instant remedy can i make an appointment with the doctor","keep fever in check"],
+"context": [""]
+},
+
+{"tag": "allergy",
+"patterns": ["i have a allergy" ,"very itching"],
+"responses": ["apply calamine","use ice to compress itching"],
+"context": [""]
+},
+{"tag": "acne",
+"patterns": ["i have a big acne", "black spots","pimple"],
+"responses": ["bath twice","avoid fatty spicy food","drink plenty of water if you are not satisfied with the instant remedy can i make an appointment with the doctor","avoid too many beauty products if you are not satisfied with the instant remedy can i make an appointmnent with the doctor"],
+"context": [""]
+},
+{"tag": "Diabetes ",
+"patterns": ["i have diabetes", "Controlling steps for sugar","What should I need to do for controlling sugar"],
+"responses": ["have a balanced diet  if you are not satisfied with the instant remedy can i make an appointmnent with the doctor"," do exercise regularly  if you are not satisfied with the instant remedy can i make an appointmnent with the doctor"],
+"context": [""]
+},
+{"tag": "Hyperthyroidism",
+"patterns": ["ihave a big acne", "black spots","pimple"],
+"responses": ["eat healthy","use lemon balm","take radioactive iodine treatment"],
+"context": [""]
+},
+
+{"tag": "Dr.Rajalakshmi ",
+"patterns": ["Dr Rajalakshmi ","Raji"],
+"responses": ["Your appointment is successfully booked, Appointment details- Dr Name: Dr.Rajalakshmi C,Address: No.10A paari street ,Anna nagar,Trichy, clinic contact no: 79898030456"],
+"context": [""]
+},
+   
+{"tag": "appointment",
+"patterns": ["I want to book an appointment", "I need to consult a doctor", "Make me an appointment to doctor"],
+"responses": ["Can you tell us Which specialist do you need?" ],
+"context": [""]
+},
+{"tag": "Specialist",
+"patterns": ["Dermatologist", "skin doctor","heavy fever","yes"],
+"responses": ["Can you tell us the location?" ],
+"context": [""]
+},
+{"tag": "appointment-location",
+"patterns": ["Trichy","Ariyalur","Perambalur"],
+"responses": ["Which time slot do you want to book an appointment"],
+"context": [""]
+},
+{"tag": "time",
+"patterns": ["5pm", "6pm", "7pm"],
+"responses": ["These are the doctors available ,Which doctor do you want to book,Dr.Mahalakshmi,Dr.Kumar,Dr.Subulakshmi,Dr.Rajalakshmi"],
+"context": [""]
+},
+  {"tag": "Dr.Maha",
+"patterns": ["Dr.Maha","Maha"],
+"responses": ["Your appointment is successfully booked, Appointment details- Dr Name: Dr.Maha,department: Dermatologist,Address: No.10A paari street ,Anna nagar,Trichy, clinic contact no: 7708030456"],
+"context": [""]
+},
+
+
+{"tag": "Diet chart",
+"patterns": ["I need a diet chart", "can you suggest me a diet chart", " what diet sould I take to loss my weight"],
+"responses": ["Can you tell your weight in kilograms" ],
+"context": [""]
+},
+{"tag": "weight",
+"patterns": ["89","90","103","78","95","65"],
+"responses": ["can you tell you height in centimeters" ],
+"context": [""]
+},
+{"tag": "height",
+"patterns": ["175.3","160","168","169"],
+"responses": ["What is you age"],
+"context": [""]
+},
+{"tag": "age",
+"patterns": ["25", "34","18","45", "50"],
+"responses": ["It would be effective if you follow paleo diet, you want to consume 1250 calories per day ,Here is the diet chart,Breakfast 330cal 2 idly,1/2 dhaal,1omelette,lunch 333cal 1cup rice,1/2 cup keerai,1/4 curd,slice cucumber evening snack 124cal 1 cup coffee without sugar dinner 333 cal 2 wheat roti,1 banana,1/2 sambar "],
+"context": [""]
+},
+    {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+         "context": [""]
+        },
+        {"tag": "adverse_drug",
+         "patterns": ["How to check Adverse drug reaction?", "Open adverse drugs module", "Give me a list of drugs causing adverse behavior", "List all drugs suitable for patient with adverse reaction", "Which drugs dont have adverse reaction?" ],
+         "responses": ["Navigating to Adverse drug reaction module"],
+         "context": [""]
+        },
+        {"tag": "blood_pressure",
+         "patterns": ["Open blood pressure module", "Task related to blood pressure", "Blood pressure data entry", "I want to log blood pressure results", "Blood pressure data management" ],
+         "responses": ["Navigating to Blood Pressure module"],
+         "context": [""]
+        },
+        {"tag": "blood_pressure_search",
+         "patterns": ["I want to search for blood pressure result history", "Blood pressure for patient", "Load patient blood pressure result", "Show blood pressure results for patient", "Find blood pressure results by ID" ],
+         "responses": ["Please provide Patient ID", "Patient ID?"],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {"tag": "search_blood_pressure_by_patient_id",
+         "patterns": [],
+         "responses": ["Loading Blood pressure result for Patient"],
+         "context": [""]
+        },
+        {"tag": "pharmacy_search",
+         "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
+         "responses": ["Please provide pharmacy name"],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "search_pharmacy_by_name",
+         "patterns": [],
+         "responses": ["Loading pharmacy details"],
+         "context": [""]
+        },
+        {"tag": "hospital_search",
+         "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
+         "responses": ["Please provide hospital name or location"],
+         "context": ["search_hospital_by_params"]
+        },
+        {"tag": "search_hospital_by_params",
+         "patterns": [],
+         "responses": ["Please provide hospital type"],
+         "context": ["search_hospital_by_type"]
+        }
+     ]
+}
